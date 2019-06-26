@@ -1,12 +1,13 @@
 html{
     font-size: 18px;
+    color: white;
 }
 .main-container{
     width:960px;
 }
 .header{
     background-color: black;
-    color: white;
+    
     font-family:Helvetica;
     font-size:1rem;
     display: flex;
@@ -27,4 +28,38 @@ html{
 
 .banner{
     background-image: url('././images/moto.jpeg');
+    height: 25rem;
+}
+.banner-title{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.new-arrival{
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.sport-bike{
+    font-family:Helvetica;
+    font-size:2rem;
+    font-weight: bold;
+    padding-top: 0.25rem;
+    padding-bottom: 2rem;
+}
+.navbar{
+    background-color: firebrick;
+}
+.navbar ul{
+    display:flex;
+    justify-content: space-around;
+}
+.navbar li{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-family: Helvetica;
+    font-weight: bold;
+
 }
