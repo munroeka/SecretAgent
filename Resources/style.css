@@ -119,3 +119,33 @@ body{
 .footer span{
     text-align: left;
 }
+@media only screen and (max-width:1024px){
+    .product-item img{
+        width: 47%;
+    }
+}
+@media only screen and (max-width:470px){
+    .banner{
+        height:15rem;
+    }
+    .banner-title{
+        padding-top: 10rem;
+    }
+    .new-arrival{
+        padding-top: 1rem; padding-left: 2rem;
+        font-family: Helvetica; font-size: 0.77rem; font-weight:bold;
+    }
+    .sport-bike{
+        padding-left: 2rem;
+        font-family:Helvetica;
+        font-size: 1rem; font-weight: bold;
+    }
+    .products, .information{
+        width: 90%;
+    }
+
+    .products{
+        flex-direction: column;
+        align-content: center;
+    }
+}
